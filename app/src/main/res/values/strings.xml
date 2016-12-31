@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Morse Code Machine</string>
+    <string name="action_settings">Settings</string>
+</resources>
