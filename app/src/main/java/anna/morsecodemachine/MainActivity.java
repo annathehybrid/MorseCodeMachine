@@ -45,8 +45,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -327,7 +325,7 @@ public class MainActivity extends AppCompatActivity {
                         if (dit_dah_length < 6) {
 
                             // if the pause is short, then the user is still typing
-                            if (absolute_pause_number < 244 ) {
+                            if (absolute_pause_number < 300 ) {
 
                                 dit_dah_conversion_final = dit_dah_conversion_final + dit_dah_conversion;
                                 text_box_ditdah.setText(dit_dah_conversion_final);
@@ -479,19 +477,6 @@ public class MainActivity extends AppCompatActivity {
 
 
                             } // start flag
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -795,7 +780,7 @@ public class MainActivity extends AppCompatActivity {
                     break;
 
                 default:
-                    final_letter_is = "ERROR";
+                    final_letter_is = what_letter_is_this;
                     break;
             }
 

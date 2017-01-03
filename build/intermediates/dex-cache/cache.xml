@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="e83657d596578424410c5973f88bb90a835e0ae5">
+        sha1="dd954d522893093d32ccca5d708a892c3d39c423">
         <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a05000e7f8c51f0680fe30f3ceb2c283ce74d838\classes.dex" />
     </item>
     <item
@@ -138,21 +138,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_39d4b465ed3b43ff39ffc3ed893b16c209611090\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
         <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_578d2a1cf53e2a4c890064b477e3d1211d93f02e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_39d4b465ed3b43ff39ffc3ed893b16c209611090\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -178,7 +178,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="6d569a89162f0c3c853cd7289dd2dfbd70c0fd40">
+        sha1="86eb31cb54dac47ed30a85f6319bffd242973144">
         <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_cffffb42074bdf7ac2474a6896e09815d985aea6\classes.dex" />
     </item>
 
