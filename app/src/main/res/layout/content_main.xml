@@ -15,40 +15,26 @@
     tools:context="anna.morsecodemachine.MainActivity">
 
 
-        <TextView
+    <TextView
             android:id="@+id/text_start_time"
 
-            android:text="Start time!"
-            android:layout_width="wrap_content"
+        android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
 
-        <TextView
+    <TextView
             android:id="@+id/text_end_time"
 
-            android:text="End time!"
-            android:layout_width="wrap_content"
+        android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:layout_below="@+id/text_start_time"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 
-        <EditText
-            android:id="@+id/absolute_millis"
 
-            android:text="Total milliseconds"
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="10"
-            android:layout_below="@+id/text_end_time"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
-
-        <EditText
+    <TextView
             android:id="@+id/pause_millis"
 
             android:text="Pause milliseconds"
@@ -58,13 +44,16 @@
             android:ems="10"
             android:layout_below="@+id/absolute_millis"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentEnd="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_alignLeft="@+id/absolute_millis"
+        android:layout_alignStart="@+id/absolute_millis" />
 
 
         <TextView
             android:id="@+id/description_millis"
 
-            android:text="Button pressed for"
+            android:text="Button pressed for: "
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
@@ -75,36 +64,38 @@
         <TextView
             android:id="@+id/description_pause"
 
-            android:text="Pause between:"
+            android:text="Pause between: "
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/absolute_millis"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-             />
+            android:layout_alignParentStart="true" />
 
         <TextView
             android:id="@+id/description_input"
             android:text="Input:"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/alphanum_letter"
+            android:layout_alignTop="@+id/ditdah"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             />
 
 
 
-        <EditText
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:text="current input"
             android:ems="10"
-            android:id="@+id/alphanum_letter"
+            android:id="@+id/ditdah"
             android:layout_below="@+id/pause_millis"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentEnd="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_alignLeft="@+id/pause_millis"
+            android:layout_alignStart="@+id/pause_millis" />
 
 
 
@@ -113,7 +104,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button_clear"
-            android:layout_below="@+id/alphanum_letter"
+            android:layout_below="@+id/ditdah"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
 
@@ -183,6 +174,22 @@
             android:layout_below="@+id/sentence"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
+
+    <TextView
+            android:id="@+id/absolute_millis"
+
+            android:text="Total milliseconds"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_below="@+id/text_end_time"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/description_millis"
+        android:layout_toEndOf="@+id/description_millis" />
 
 
 </RelativeLayout>
