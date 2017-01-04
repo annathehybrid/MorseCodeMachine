@@ -4,6 +4,7 @@ import android.media.AudioManager;
 import android.media.ToneGenerator;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -20,6 +21,8 @@ import static java.lang.Math.abs;
 
 
 public class MainActivity extends AppCompatActivity {
+
+
 
     // initialize variables
     Button button_tone, button_clear;
@@ -49,6 +52,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // set title for toolbar
+        Toolbar mToolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(mToolbar);
+        getSupportActionBar().setTitle("Morse Code Machine");
 
 
         // start up the tone generator
@@ -86,12 +94,14 @@ public class MainActivity extends AppCompatActivity {
         final TextView text_box_ditdah = (TextView)findViewById(R.id.ditdah);
 
 
-        // edit text box is the record of all the word dits and dahs
-        final EditText edit_box_morse_letter = (EditText)findViewById(R.id.morse_sentence);
+        // text box is the record of all the word dits and dahs
+        final TextView text_box_morse_letter = (TextView)findViewById(R.id.morse_sentence);
 
+        // box is the translation of dit-dahs to letters and numbers
+        final TextView text_box_sentence = (TextView)findViewById(R.id.sentence);
 
-        // edit box is the translation of dit-dahs to letters and numbers
-        final EditText edit_box_sentence = (EditText)findViewById(R.id.sentence);
+        // this text box shows in real time what the current dit dah is
+        final TextView text_box_real_time_letter = (TextView)findViewById(R.id.realtime_letter);
 
         final String FILE_NAME_start_time = "start_time.txt";
         final String FILE_NAME_end_time = "end_time.txt";
@@ -100,6 +110,37 @@ public class MainActivity extends AppCompatActivity {
 
         final String FILE_NAME_dit_dah = "dit_dah.txt";
         final String FILE_NAME_dit_dah_final = "dit_dah_final.txt";
+
+
+        try {
+            // Create file for final ditdah
+            FileOutputStream fos = openFileOutput(FILE_NAME_dit_dah_final, MODE_PRIVATE);
+            fos.write("".getBytes());
+            fos.close();
+
+        } catch (Exception error) {
+            // Exception
+        }
+
+
+        try {
+            // Create file for final ditdah
+            FileOutputStream fos = openFileOutput(FILE_NAME_dit_dah, MODE_PRIVATE);
+            fos.write("".getBytes());
+            fos.close();
+
+        } catch (Exception error) {
+            // Exception
+        }
+
+
+
+
+
+
+
+
+
 
         // set the on touch listener for the morse button
         button_tone.setOnTouchListener(new View.OnTouchListener() {
@@ -268,7 +309,7 @@ public class MainActivity extends AppCompatActivity {
                         // now that we know how long the button was pressed
                         // algorithm for determining whether a press is a
                         // dit or a dah
-                        if (absolute_change < 244) {
+                        if (absolute_change < 155) {
                             dit_dah_conversion = ".";
                             Log.e("ditdah is ", " a period");
                         } else {
@@ -325,7 +366,7 @@ public class MainActivity extends AppCompatActivity {
                         if (dit_dah_length < 6) {
 
                             // if the pause is short, then the user is still typing
-                            if (absolute_pause_number < 300 ) {
+                            if (absolute_pause_number < 500 ) {
 
                                 dit_dah_conversion_final = dit_dah_conversion_final + dit_dah_conversion;
                                 text_box_ditdah.setText(dit_dah_conversion_final);
@@ -334,7 +375,7 @@ public class MainActivity extends AppCompatActivity {
                             else {
 
                                 // first, show the full display of dit dah in the edit box
-                                edit_box_morse_letter.append(dit_dah_conversion_final + " ");
+                                text_box_morse_letter.append(dit_dah_conversion_final + " ");
 
                                 // now is a good time to commit this to memory
                                 // write the string of the dit dah
@@ -381,13 +422,13 @@ public class MainActivity extends AppCompatActivity {
                                     String output_conversion = DitDahConversion.convert_ditdah_to_letters(
                                             input_to_conversion_method);
 
-                                    edit_box_sentence.append(output_conversion);
+                                    text_box_sentence.append(output_conversion);
 
 
 
-                                    if (absolute_pause_number > 2000) {
+                                    if (absolute_pause_number > 1000) {
                                         Log.e("the pause length is ", String.valueOf(absolute_pause_number));
-                                        edit_box_sentence.append("  ");
+                                        text_box_sentence.append("  ");
                                     }
 
 
@@ -414,7 +455,7 @@ public class MainActivity extends AppCompatActivity {
                         else {
 
                             // add the final dit dahs to the morse edit table
-                            edit_box_morse_letter.append(dit_dah_conversion_final + " ");
+                            text_box_morse_letter.append(dit_dah_conversion_final + " ");
 
                             // now is a good time to commit this to memory
                             // write the string of the dit dah
@@ -465,19 +506,18 @@ public class MainActivity extends AppCompatActivity {
                                         input_to_conversion_method);
                                 Log.e("this is a " , output_conversion);
 
-                                edit_box_sentence.append(output_conversion);
+                                text_box_sentence.append(output_conversion);
 
 
 
                                 Log.e("the pause length is ", String.valueOf(absolute_pause_number));
 
-                                if (absolute_pause_number > 2000) {
-                                    edit_box_sentence.append("  ");
+                                if (absolute_pause_number > 1000) {
+                                    text_box_sentence.append("  ");
                                 }
 
 
                             } // start flag
-
 
 
 
@@ -490,11 +530,6 @@ public class MainActivity extends AppCompatActivity {
 
                         }
 
-
-
-
-
-
                 }
                         break;
 
@@ -502,10 +537,11 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
 
+
+            // when the morse letter changes, automatically convert this to a letter
+            // and display it
         }); // on Touch listener for button
-
-
-        edit_box_morse_letter.addTextChangedListener(new TextWatcher() {
+        text_box_ditdah.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
 
@@ -519,8 +555,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable editable) {
 
+                if (text_box_real_time_letter != null) {
 
+                    // a method to convert dit dahs to english letters
+                    // input: full dit dahs
+                    // output: english letters
+                    String input_real_time = text_box_ditdah.getText().toString();
+                    String output_real_time = DitDahConversion.convert_ditdah_to_letters(
+                            input_real_time);
+                    Log.e("this is a " , output_real_time);
 
+                    text_box_real_time_letter.setText(output_real_time);
+
+                }
 
 
             }
@@ -576,10 +623,13 @@ public class MainActivity extends AppCompatActivity {
                 text_box_ditdah.setText("");
 
                 /// set the morse code line to empty
-                edit_box_morse_letter.setText("");
+                text_box_morse_letter.setText("");
 
                 // set the sentence line to empty
-                edit_box_sentence.setText("");
+                text_box_sentence.setText("");
+
+                // set the real time conversion to empty
+                text_box_real_time_letter.setText("");
 
                 return false;
             }
@@ -780,7 +830,7 @@ public class MainActivity extends AppCompatActivity {
                     break;
 
                 default:
-                    final_letter_is = what_letter_is_this;
+                    final_letter_is = "that isn't a real letter!";
                     break;
             }
 
