@@ -1,28 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:context="anna.morsecodemachine.MainActivity">
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="anna.morsecodetelegraph.MainActivity">
 
-    <android.support.design.widget.AppBarLayout
+
+    <TextView
+        android:id="@+id/description_start_time"
+
+        android:text="Start time (milliseconds)"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+         />
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+    <TextView
+        android:id="@+id/text_box_start_time"
 
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+        android:text="Start Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description_start_time"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
-    </android.support.design.widget.AppBarLayout>
+    <TextView
+        android:id="@+id/description_end_time"
 
-    <include layout="@layout/content_main"/>
+        android:text="End time (milliseconds)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_box_start_time"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
 
-</android.support.design.widget.CoordinatorLayout>
+
+    <TextView
+        android:id="@+id/text_box_end_time"
+
+        android:text="End Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_below="@+id/description_end_time"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="How long were you pressing the button?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_box_end_time"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/description_pressed" />
+
+    <TextView
+        android:text="I was pressing for ..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description_pressed"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text_box_pressed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:text="How long did you wait before pressing the button again?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_box_pressed"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/description_pause" />
+
+    <TextView
+        android:text="I paused for ..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description_pause"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text_box_paused"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/button_press"
+
+        android:text="Press me!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_box_paused"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

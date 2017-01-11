@@ -3,183 +3,111 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_9fb2ed3704f0a73b60aed86572b1a5a8431ac791\classes.dex" />
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_d97d3949b76a08714beb279b0cc301e99c78d414\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_e2d17414dd6bcc4895224c01d691132b33928270\classes.dex" />
+        sha1="e6ad197ea4d7e8498fbdc491d6a108427cfa2530">
+        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1fba62fae76d012f5d2f8013496238f3828bd92d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Anna\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_90aec248fed72abac3d936acccd89af4fc6a5574\classes.dex" />
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_aa4e7c93545a807cdcf3c6e98bd92632b385db2c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_d30a1f48231fbb30c280ccef95499656fefbb0d1\classes.dex" />
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_288b382eeb77c341d5c58c748e8a6b5bcdcb70a9\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_ea2d5572d36834cbdd75152f8276a94e1e1a4a19\classes.dex" />
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_b4ef245d0cdb77e9cfd4880b9268cdb9b32f2bbb\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_44df2d8761cba365b6339191c2febe5dabaa9fcb\classes.dex" />
+        sha1="0426922b1b5725bc9f3030b3923947ac3a0efef1">
+        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_590f2bda4768a6104dd0b094e324eaa4722a4412\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_bcc6ef3ae2729a443498107e5da5de6684f4c65a\classes.dex" />
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_2ee5de779855147893e26ababc783cc6b633fe69\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_cf6e57dc5f3f7b6cf14c62422e05da318fd36022\classes.dex" />
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_3cfa64cc84afabff323091af1d8073b2a1ed8518\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jar="C:\Users\Anna\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_578d2a1cf53e2a4c890064b477e3d1211d93f02e\classes.dex" />
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_169189606b02fcc894f944f7d5eb250e1632253a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_3feac7249701b8b4ea8d0c987d64edd6bc36714f\classes.dex" />
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_4b540c56900dabbbcd9322b5fb5eb353cafe1250\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_cc7c01163bfdc61ee2d8f578766fe53564ed8382\classes.dex" />
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_666142c9b06f624abfe1f554e5b6fb1a54fe3565\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="8e00441ed783aab5a000852525d9d365be24566e">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a05000e7f8c51f0680fe30f3ceb2c283ce74d838\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_6b49776797324560ca22152b0987babefcdac76f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_aae2806a89866681acf09c5c40701905e1ede9ba\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_953dd1fc9fa89d86f238f9ade06b01e43bc526ee\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_1513cbcb5ac61518a5341f8c17c2edbdd66db02e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_14722395b7c0acef2c75fb8f1e0a6a0c3e925c4f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_39d4b465ed3b43ff39ffc3ed893b16c209611090\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_87d90cf3163bebb6c81c6485528aa469bc957c05\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="89c9fc1e15a04c0e6e6738f0f965ef1490bae161">
-        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeMachine\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_cffffb42074bdf7ac2474a6896e09815d985aea6\classes.dex" />
+        <dex dex="C:\Users\Anna\AndroidStudioProjects\MorseCodeTelegraph\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_b58f72904dc50ad4d86de5879449631b2bdde1bd\classes.dex" />
     </item>
 
 </items>
